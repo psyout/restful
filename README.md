@@ -16,7 +16,7 @@ This is a simple Node.js API server that connects to a MongoDB database using Mo
 - server.js: Sets up the Express server, connects to the MongoDB database, and listens for incoming requests.
 
 
-## 📂 Endpoints
+## 🔚 Endpoints
 
 - GET /api/products: Retrieve all products.
 - GET /api/products/:id: Retrieve a product by its ID.
