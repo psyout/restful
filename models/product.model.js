@@ -32,20 +32,15 @@ const ProductSchema = mongoose.Schema(
 
 		menu: {
 			drinks: {
-				type: [String], // Changed to an array of strings
+				type: [String],
 				required: true,
-				default: [], // Default is an empty array
+				default: [],
 			},
 			food: {
-				type: [String], // Changed to an array of strings
+				type: [String],
 				required: true,
-				default: [], // Default is an empty array
+				default: [],
 			},
-		},
-
-		image_url: {
-			type: String,
-			required: false,
 		},
 
 		coordinates: {
@@ -57,6 +52,11 @@ const ProductSchema = mongoose.Schema(
 				type: Number,
 				required: true,
 			},
+		},
+
+		image_url: {
+			type: String,
+			required: false,
 		},
 	},
 	{
