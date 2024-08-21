@@ -5,7 +5,7 @@ const ProductSchema = mongoose.Schema(
 	{
 		name: {
 			type: String,
-			required: [true, 'Please enter a product name'],
+			required: [true, 'Please enter a business name'],
 		},
 
 		address: {
@@ -56,7 +56,8 @@ const ProductSchema = mongoose.Schema(
 
 		image_url: {
 			type: String,
-			required: false,
+			required: true,
+			default: [],
 		},
 	},
 	{
